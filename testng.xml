@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="ECommerceTestSuite">
+
+    <listeners>
+        <listener class-name="com.ecommerce.tests.ScreenshotListener"/>
+    </listeners>
+
+    <test name="ECommerceTesting">
+
+        <classes>
+
+            <class name="com.ecommerce.tests.LoginTest"/>
+
+            <class name="com.ecommerce.tests.ProductTest"/>
+
+            <class name="com.ecommerce.tests.CartTest"/>
+
+            <class name="com.ecommerce.tests.WaitTest"/>
+
+            <class name="com.ecommerce.tests.ActionsTest"/>
+
+            <class name="com.ecommerce.tests.MouseActionsTest"/>
+
+            <class name="com.ecommerce.tests.DragDropTest"/>
+
+            <class name="com.ecommerce.tests.KeyboardActionsTest"/>
+            
+            <class name="com.ecommerce.tests.CheckoutTest"/>
+
+            <class name="com.ecommerce.tests.LogoutTest"/>
+
+            <class name="com.ecommerce.tests.ConfigTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
